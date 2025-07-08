@@ -1,0 +1,178 @@
+.section6 {
+  margin-top: 65px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* click to See BTC Wallet address */
+
+.ClickToviewBTCwallet-Container {
+  display: flex;
+}
+
+.Smart-Contract-Dropdown-wallet {
+  border: 0.5px solid gray;
+  box-shadow: -4px 5px 19px 1px rgba(0, 0, 0, 0.77);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  width: 78vw;
+  top: -300px;
+  transition: all 0.5s linear;
+  transform: scale(0.1);
+  left: 11%;
+  z-index: 20;
+  display: none;
+}
+
+.OPEN-BTC-WALLETS {
+  display: block;
+  transform: scale(1);
+}
+
+.smartContract-Header {
+  display: flex;
+  background-color: #181a20;
+  height: 4vh;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clicklogo-img-container {
+  height: 16px;
+  width: 19px;
+  box-sizing: border-box;
+  margin-top: -4px;
+  margin-left: 3px;
+}
+
+.clickBitcoin-img-container {
+  height: 19px;
+  width: 19px;
+  box-sizing: border-box;
+  margin-top: 3px;
+}
+
+.Click-button-X {
+  background: none;
+  border: none;
+  color: white;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.p-click-binanceBtc-SmartContract {
+  color: rgb(240, 185, 11);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6em;
+  /* white-space: nowrap; */
+}
+
+.smartContract-footer {
+  display: flex;
+  background-color: #181a20;
+  height: 4vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-smartContract-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(240, 185, 11);
+  font-size: 0.7em;
+}
+
+/* .Smart-contract-Background-Img {
+  height: 50px;
+} */
+
+.Click-MainBody1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.pp-smartContract-address {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Click-CopyWallet-Addres {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.Click-InputCopy-Address {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+  border-left: none;
+}
+
+.click-copy-BUTTON {
+  /* border: 1px solid gray; */
+  border: none;
+  background-color: rgb(240, 185, 11);
+  color: white;
+}
+
+.wallet-Bar-to-Change-walletaddress {
+  width: 40vw;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.pp-Waiting-to-be-Deposited {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.Click-Spin-Icon {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(240, 185, 11);
+  margin-bottom: 7px;
+}
+
+.pp-Click-DepositImmediately {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pp-Click-StepsToFollow {
+  margin-bottom: 10px;
+}
+
+.ul-Click-Step-Below {
+  padding-left: 25px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+/* .wallet-Bar-to-Change-walletaddress-Container {
+  width: 100%;
+} */
+
+/* click to See BTC Wallet address  End*/

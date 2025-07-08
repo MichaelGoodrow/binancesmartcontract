@@ -1,0 +1,828 @@
+img {
+  width: 100%;
+  display: block;
+}
+
+.BnB-font-R {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+.BnB-font {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-barrr {
+  width: 18px;
+  margin-right: 15px;
+}
+
+.Relative-hover-menuContainer {
+  display: flex;
+  align-items: center;
+  /* width: 100%; */
+  /* border: 2px solid green; */
+  justify-content: right;
+
+
+}
+
+/* .label-menu-header {
+  display: block;
+} */
+
+.DropDown-Menu-headder {
+  border-bottom: 0.7px solid rgb(169, 167, 167);
+  width: 320px;
+  box-shadow: -1px -157px 9px -162px rgba(0, 0, 0, 0.68) inset;
+  display: none;
+  background-color: white;
+  position: fixed;
+  /* text-align: center;
+  justify-items: center;
+  justify-content: center; */
+
+  top: 0px !important;
+  right: 0px;
+  overflow: hidden;
+  height: 99vh;
+  /* height: 600px; */
+  /* transform: scaleX(0.1); */
+  /* right: -250px; */
+  transition: all 0.9s, linear;
+  /* transform: translateX(250px); */
+  /* transform: translateX(-250px); */
+
+
+}
+
+/* Media query dropdown width at 375px */
+
+@media screen and (min-width: 375px) {
+  .DropDown-Menu-headder {
+    width: 375px;
+  }
+  
+  
+  .a-dropdown-menu-register {
+    padding-right: 125px;
+  }
+}
+
+/* Media query dropdown width at 375px End */
+
+.DropDown-Menu-headder:hover {
+  overflow-y: auto;
+}
+
+.OpenMenuDropps {
+  display: block;
+  top: 20px;
+
+  /* right: -250px; */
+
+  transition: all 0.5s linear;
+  /* animation-name: Menudroppsp;
+  animation-iteration-count: 1;
+  animation-duration: 0.6s; */
+  /* transform: translateX(-50px); */
+  /* transition: all 0.7s linear; */
+  /* transform: translateX(-250px); */
+}
+
+/* animation for menu drop down */
+
+@keyframes Menudropps {
+  0% {
+    transform: translateX(300px);
+  }
+
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+/* animation for menu drop down */
+
+.xExitsbutton {
+  border: none;
+  background: none;
+  color: rgb(112, 122, 138);
+  cursor: pointer;
+  padding-top: 20px;
+
+  float: right;
+  clear: both;
+
+  margin-right: 7px;
+  margin-bottom: 20px;
+}
+
+.xExitsbutton:hover {
+  color: rgb(240, 185, 11);
+}
+
+/* 
+.Relative-hover-menuContainer:hover .DropDown-Menu-headder {
+  display: block;
+} */
+
+.Menu-container {
+  position: relative;
+  /* border: 1px solid blue; */
+  /* width: 50px; */
+  height: 26px;
+  background-color: white;
+  border: none;
+  background: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.fas-bar-span:hover {
+  color: rgb(240, 185, 11);
+}
+/* .fas.expand:before {
+  content: "\f00d";
+} */
+
+/* .Menu-container.expand {
+  width: 330px;
+} */
+
+.fas {
+  float: right;
+  font-size: 18px;
+  margin-right: 7px;
+  margin-top: 4px;
+}
+
+.a-Dropdown-menu-log-In {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.Dropdown-menu-log-In:active {
+  background-color: #f0bb0b32;
+  transition: all 0.3s linear;
+}
+
+.Dropdown-menu-log-In:hover .a-Dropdown-menu-log-In {
+  color: #f0b90b;
+  transition: all 0.3s linear;
+}
+
+.Dropdown-menu-log-In {
+  text-align: center;
+  /* width: 320px; */
+  margin-top: 30px;
+  clear: both;
+  transition: all 0.3s linear;
+  display: block;
+}
+
+.a-dropdown-menu-register {
+  color: black;
+  background-color: #fcd535;
+  text-decoration: none;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dropdown-menu-register {
+  text-align: center;
+  /* width: 320px; */
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: block;
+ position: relative;
+}
+
+.container-gift-register-img {
+  position: absolute;
+  width: 16px;
+  left: 113px;
+  top: 18px;
+}
+
+/* MQ 375 gifts register img */
+
+@media screen and (min-width: 375px) {
+  .container-gift-register-img {
+    left: 140px;
+    top: 18px;
+  }
+}
+
+/* MQ 375 gifts register imgEnd */
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.li-markets-dropdown {
+  display: flex;
+  position: relative;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15.7px;
+  align-items: center;
+}
+
+ul li label {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.8px;
+  white-space: nowrap;
+}
+
+.bitcoin-icon-container {
+  width: 32px;
+  height: 30px;
+  margin-left: 7px;
+}
+
+.Eur-icon-container {
+  width: 30px;
+  height: 20px;
+  margin-left: 3px;
+  /* margin-right: 158px; */
+}
+
+.hot-icon-container {
+  width: 27px;
+  height: 20px;
+  margin-left: 3px;
+}
+
+.li-pay-with-BuyCrypto-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(242, 241, 241);
+  margin-left: 36px;
+}
+
+.Eur-sign-icon-container {
+  width: 30px;
+  height: 20px;
+  margin-left: 3px;
+}
+
+.pay-with-eur-sign-container {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.markets-icon-container {
+  width: 24px;
+  height: 28px;
+  margin-left: 8.8px;
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+
+.Trade-icon-container {
+  width: 23px;
+  height: 20px;
+  margin-left: 9.9px;
+  margin-top: 0.2px;
+  margin-right: 7.9px;
+}
+
+.Derivatives-icon-container {
+  width: 17.7px;
+  height: 16px;
+  margin-left: 10px;
+  margin-right: 8px;
+  margin-top: 0.2px;
+}
+
+.Earn-icon-container {
+  width: 18.8px;
+  height: 18px;
+  margin-left: 9px;
+  margin-bottom: 4.9px;
+  margin-right: 9.8px;
+}
+
+.Ul-li-Earnss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.Ul-li-finnance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.Ul-li-proodduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.Ul-li-Institutional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.Finance-icon-container {
+  width: 18.8px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.NFT-icon-container {
+  width: 19px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.New-icon-container {
+  width: 30px;
+  height: 20px;
+  margin-left: 3px;
+}
+
+.Theme-icon-container {
+  width: 20px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 6px;
+  margin-bottom: 8px;
+}
+
+.Darkmode-icon-container {
+  width: 33px;
+  height: 20px;
+  margin-right: 7px;
+}
+
+.Downloads-icon-container {
+  width: 18px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 7.3px;
+}
+
+.English-icon-container {
+  width: 16px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 7.3px;
+}
+
+.USD-icon-container {
+  width: 22px;
+  height: 20px;
+  margin-left: 7.2px;
+  margin-right: 5px;
+}
+
+.Products-icon-container {
+  width: 17px;
+  height: 10px;
+  margin-left: 9px;
+  margin-right: 6px;
+  margin-top: -9px;
+}
+
+.fas-CaretDown-trade {
+  border: 1px solid blue;
+  margin-left: 220px;
+}
+
+.fascaret-down-derivatives {
+  margin-left: 193.5px;
+}
+
+.fascaret-down-earn {
+  margin-left: 232px;
+}
+
+.fascaret-down-Products {
+  margin-left: 206.8px;
+}
+
+.li-usd-icon {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.li-download-icon {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.li-theme-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.li-Nft-icon {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.li-Feed-icon {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.li-Feed-icon a {
+  margin-left: 36px;
+}
+
+.li-English-icon {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.fascaret-down-finance {
+  margin-left: 213.1px;
+}
+
+.li-label-ul {
+  /* padding-left: 36px; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 30px;
+  list-style-type: none;
+  position: static;
+  display: none;
+}
+
+.li-label-ul li a {
+  padding-left: 36px;
+}
+
+input {
+  display: none;
+}
+
+[id^="buy-crypto"]:checked + .li-label-ul {
+  display: block;
+}
+
+[id^="Eearn"]:checked + .li-label-ul {
+  display: block;
+}
+
+[id^="fiinance"]:checked + .li-label-ul {
+  display: block;
+}
+
+[id^="Prooducts"]:checked + .li-label-ul {
+  display: block;
+}
+
+/* ul {
+  line-height: 50px;
+  border: 1px solid red;
+} */
+
+.line-height-div-ul {
+  line-height: 55px;
+  list-style-type: none;
+}
+
+.li-CreditDebitCard-BuyCrypto-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.li-bankDeposit-BuyCrypto-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.material-symbols-outlined::before {
+  content: "arrow_drop_up";
+  box-sizing: border-box;
+  position: absolute;
+  color: #f0b90b;
+  background-color: rgb(245, 245, 245);
+  display: none;
+}
+
+.bitcoin-icon-yellow-container {
+  position: absolute;
+  width: 23.7px;
+  height: 25px;
+  left: 8.3px;
+  display: none;
+  margin-top: 2px;
+}
+
+.Derivatives-icon-yellow-container {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  margin-left: 3px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+
+  display: none;
+}
+
+.Products-icon-yellow-container {
+  width: 14px;
+  position: absolute;
+  display: none;
+  height: 10px;
+  margin-left: 10px;
+  margin-right: 12px;
+  margin-top: -5px;
+}
+
+.NFT-icon-yellow-container {
+  width: 18.5px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 9px;
+  position: absolute;
+  display: none;
+}
+
+.Earn-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 17.7px;
+  height: 18px;
+  margin-left: 9px;
+  margin-top: -2.6px;
+  margin-right: 9.8px;
+}
+
+.Theme-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 6px;
+  margin-bottom: 1px;
+}
+
+.Darkmode-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 33px;
+  height: 20px;
+  right: 7px;
+}
+
+.Downloads-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 23px;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 7.3px;
+  margin-bottom: 14px;
+}
+
+.Finance-icon-Yellow-container {
+  position: absolute;
+  display: none;
+  width: 17px;
+  height: 20px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.English-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 21px;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 7.3px;
+  margin-bottom: 4px;
+}
+
+.markets-icon-Yellow-container {
+  position: absolute;
+  width: 22px;
+  height: 20px;
+  margin-left: 8.8px;
+  margin-right: 6px;
+
+  margin-bottom: 1.5px;
+  display: none;
+}
+
+.USD-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 18.3px;
+  height: 20px;
+  margin-left: 7.2px;
+  margin-right: 5px;
+  margin-bottom: 0.5px;
+}
+
+.Trade-icon-yellow-container {
+  position: absolute;
+  display: none;
+  width: 23px;
+  height: 19px;
+  margin-left: 9.9px;
+  margin-top: 0.7px;
+
+  /* margin-right: 7.9px; */
+}
+
+/* label {
+  border: 1px solid black;
+} */
+
+.Ul-li-BuyCrypto {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+
+.Ul-li-traddde {
+  justify-content: space-between;
+  font-size: 16.9px;
+}
+
+[id^="trraade"]:checked + .li-label-ul {
+  display: block;
+}
+
+[id^="Derivvatives"]:checked + .li-label-ul {
+  display: block;
+}
+
+[id^="Institutionall"]:checked + .li-label-ul {
+  display: block;
+}
+/* .Ul-li-BuyCrypto:hover {
+  background-color: #f5f5f5;
+} */
+
+.ul-li-Derivatives {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+
+.new-small-icon-container {
+  width: 21px;
+  /* height: 20px; */
+  margin-left: 3px;
+  margin-top: 11.2px;
+}
+
+.li-usd-derivatives-dropdown {
+  display: flex;
+}
+
+.li-Earn-AutoInvest-Newicon {
+  display: flex;
+}
+
+.li-producttt-drop {
+  border-bottom: 1px solid rgb(186, 185, 185);
+}
+
+.LI-main-LI-BUYCRYPTO {
+  position: relative;
+}
+
+/* .LI-main-LI-BUYCRYPTO:hover {
+  background-color: rgb(245, 245, 245);
+} */
+
+/* hover yellow colors icons */
+.p-eur-span:hover,
+.Ul-li-BuyCrypto:hover,
+.li-markets-dropdown:hover,
+.Ul-li-traddde:hover,
+.ul-li-Derivatives:hover,
+.Ul-li-Earnss:hover,
+.Ul-li-finnance:hover,
+.li-Nft-icon:hover,
+.Ul-li-proodduct:hover,
+.li-theme-icon:hover,
+.li-download-icon:hover,
+.li-English-icon:hover,
+.li-Feed-icon:hover,
+.li-usd-icon:hover,
+.Ul-li-Institutional:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.Ul-li-Institutional p {
+  margin-left: 36px;
+}
+
+/* .Ul-li-BuyCrypto:hover .bitcoin-icon-yellow-container,
+.Ul-li-BuyCrypto:hover .material-symbols-outlined::before {
+  display: block;
+} */
+
+.li-theme-icon:hover .Darkmode-icon-yellow-container {
+  display: block;
+}
+
+.ul-li-Derivatives:hover .Derivatives-icon-yellow-container,
+.Ul-li-Earnss:hover .Earn-icon-yellow-container,
+.Ul-li-finnance:hover .Finance-icon-Yellow-container,
+.li-Nft-icon:hover .NFT-icon-yellow-container,
+.Ul-li-proodduct:hover .Products-icon-yellow-container,
+.li-theme-icon:hover .Theme-icon-yellow-container,
+.li-download-icon:hover .Downloads-icon-yellow-container,
+.li-English-icon:hover .English-icon-yellow-container,
+.li-usd-icon:hover .USD-icon-yellow-container,
+.Ul-li-traddde:hover .Trade-icon-yellow-container,
+.li-markets-dropdown:hover .markets-icon-Yellow-container,
+.Ul-li-BuyCrypto:hover .bitcoin-icon-yellow-container {
+  display: block;
+}
+
+.p-eur-span:hover .material-symbols-outlined::before,
+.Ul-li-BuyCrypto:hover .material-symbols-outlined::before,
+.li-markets-dropdown:hover .material-symbols-outlined::before,
+.Ul-li-traddde:hover .material-symbols-outlined::before,
+.ul-li-Derivatives:hover .material-symbols-outlined::before,
+.Ul-li-Earnss:hover .material-symbols-outlined::before,
+.Ul-li-finnance:hover .material-symbols-outlined::before,
+.li-Nft-icon:hover .material-symbols-outlined::before,
+.Ul-li-proodduct:hover .material-symbols-outlined::before,
+.Ul-li-Institutional:hover .material-symbols-outlined::before {
+  display: block;
+}
+
+nav ul ul li:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.johngoy {
+  margin-top: 15px;
+  color: rgb(112, 122, 138);
+}
+
+/* materials arrow down */
+
+.arrowDown-trade {
+  margin-top: 23px;
+  color: rgb(112, 122, 138);
+}
+
+.arrowdown-derivatives {
+  margin-top: 19px;
+  color: rgb(112, 122, 138);
+}
+
+.arrowdown-earn {
+  margin-top: 17px;
+  color: rgb(112, 122, 138);
+}
+
+.arrowdownfinance {
+  margin-top: 19px;
+  color: rgb(112, 122, 138);
+}
+
+.arrrowdown-products {
+  margin-top: 19px;
+  color: rgb(112, 122, 138);
+}
+/* materials arrow down End */

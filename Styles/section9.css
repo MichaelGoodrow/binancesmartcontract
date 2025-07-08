@@ -1,0 +1,383 @@
+.section9 {
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input {
+  display: none;
+}
+
+.AboutUsSection9,
+.ProductsSection9,
+.ServiceSection9,
+.SupportSection9,
+.LearnSection9 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+}
+
+.p-AboutUsSection9,
+.p-ProductsSection9,
+.p-ServiceSection9,
+.p-SupportSection9,
+.p-LearnSection9 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 7px;
+  /* font-weight: 600; */
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.96);
+  /* line-height: 30px; */
+}
+
+.plus-AboutUsSection9,
+.plus-ProductsSection9,
+.plus-ServiceSection9,
+.plus-SupportSection9,
+.plus-LearnSection9 {
+  margin-right: 7px;
+  margin-top: -1px;
+
+  font-size: 25px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+.section9 ul ul {
+  padding-left: 8px;
+  list-style-type: none;
+  color: #707a8a;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20px;
+  display: none;
+  position: static;
+}
+
+.section9 ul ul li a {
+  text-decoration: none;
+  color: #707a8a;
+}
+
+.section9 ul ul li a:hover {
+  color: black;
+}
+
+[id^="InputIdAboutUS"]:checked + ul {
+  display: block;
+}
+
+[id^="InputIdProducts"]:checked + ul {
+  display: block;
+}
+
+[id^="InputIdService"]:checked + ul {
+  display: block;
+}
+
+[id^="InputIdSupport"]:checked + ul {
+  display: block;
+}
+
+[id^="InputIdLearn"]:checked + ul {
+  display: block;
+}
+
+.Relative-hover-aboutUs,
+.Relativebox-hover-product,
+.Relative-hover-Service,
+.Relative-hover-Support,
+.Relative-hover-Learn {
+  position: relative;
+}
+
+.minu-sign {
+  position: absolute;
+  right: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 19px;
+  display: none;
+  background-color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+  cursor: pointer;
+}
+
+.Relative-hover-aboutUs:hover .minu-sign,
+.Relativebox-hover-product:hover .minu-sign,
+.Relative-hover-Service:hover .minu-sign,
+.Relative-hover-Support:hover .minu-sign,
+.Relative-hover-Learn:hover .minu-sign {
+  display: block;
+}
+
+.mq-learn-MQ {
+  display: none;
+}
+
+.Container-M1025-section-10-MQ {
+  display: none;
+}
+
+/* Media Queries for All Section 9 */
+
+@media screen and (min-width: 765px) {
+  .Section9-ul-lists {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .section9 ul ul {
+    display: block;
+  }
+  /* 
+  .Relative-hover-Learn {
+    position: absolute;
+    right: 0;
+    display: none;
+  } */
+
+  .mq-learn-MQ {
+    display: block;
+  }
+
+  .MQ-learn {
+    display: none;
+  }
+
+  .minu-sign {
+    display: none;
+  }
+
+  .Relative-hover-aboutUs:hover .minu-sign,
+  .Relativebox-hover-product:hover .minu-sign,
+  .Relative-hover-Service:hover .minu-sign,
+  .Relative-hover-Support:hover .minu-sign,
+  .Relative-hover-Learn:hover .minu-sign {
+    display: none;
+  }
+
+  .plus-AboutUsSection9,
+  .plus-ProductsSection9,
+  .plus-ServiceSection9,
+  .plus-SupportSection9,
+  .plus-LearnSection9 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .Section9-ul-lists {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .Section9-ul-lists li {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .Section9-ul-lists li ul {
+    margin-left: -25px;
+  }
+
+  .section9 ul ul {
+    display: block;
+  }
+
+  .MQ-learn {
+    display: block;
+  }
+
+  .mq-learn-MQ {
+    display: none;
+  }
+
+  .minu-sign {
+    display: none;
+  }
+
+  .Relative-hover-aboutUs:hover .minu-sign,
+  .Relativebox-hover-product:hover .minu-sign,
+  .Relative-hover-Service:hover .minu-sign,
+  .Relative-hover-Support:hover .minu-sign,
+  .Relative-hover-Learn:hover .minu-sign {
+    display: none;
+  }
+
+  .plus-AboutUsSection9,
+  .plus-ProductsSection9,
+  .plus-ServiceSection9,
+  .plus-SupportSection9,
+  .plus-LearnSection9 {
+    display: none;
+  }
+
+  .Community-section10 {
+    display: none;
+  }
+
+  .MQ-community-i-container1 {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-left: -10px;
+  }
+
+  .MQ-community-i-container2 {
+    display: flex;
+    width: 151px;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 19px;
+  }
+
+  .MQ-community-i-container3 {
+    display: flex;
+    width: 138px;
+    justify-content: space-between;
+  }
+
+  .MQ-community-i-container4 {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-top: 19px;
+  }
+
+  /* .grouping9and10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+
+  .Container-M1025-section-10-MQ {
+    display: block;
+    margin-right: 100px;
+  }
+
+  .Container-M1025-section-10-MQ i {
+    opacity: 0.6;
+  }
+
+  .Container-M1025-section-10-MQ i:hover {
+    opacity: 1;
+  }
+
+  .MQ576-section-10-MQ {
+    display: none;
+  }
+
+  .p-cccommunity-MQ1025 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+    margin-bottom: 12px;
+    margin-top: 20.5px;
+  }
+
+  /* .Container-MQ576-section-10-MQ {
+    display: none;
+  } */
+
+  .section10 {
+    display: none;
+  }
+
+  .Grouping1025-9-10 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .p-cccommunity-MQ1025 {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .Section9-ul-lists {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .Section9-ul-lists li {
+    font-size: 1.1rem;
+
+    /* font-weight: bold; */
+  }
+
+  .section9 ul ul {
+    display: block;
+    /* font-size: 1rem;
+     */
+
+    line-height: 30px;
+  }
+
+  .p-AboutUsSection9,
+  .p-ProductsSection9,
+  .p-ServiceSection9,
+  .p-SupportSection9,
+  .p-LearnSection9 {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .MQ-learn {
+    display: block;
+  }
+
+  .mq-learn-MQ {
+    display: none;
+  }
+
+  .minu-sign {
+    display: none;
+  }
+
+  .Relative-hover-aboutUs:hover .minu-sign,
+  .Relativebox-hover-product:hover .minu-sign,
+  .Relative-hover-Service:hover .minu-sign,
+  .Relative-hover-Support:hover .minu-sign,
+  .Relative-hover-Learn:hover .minu-sign {
+    display: none;
+  }
+
+  .plus-AboutUsSection9,
+  .plus-ProductsSection9,
+  .plus-ServiceSection9,
+  .plus-SupportSection9,
+  .plus-LearnSection9 {
+    display: none;
+  }
+
+  /* .grouping9and10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
+
+  .Grouping1025-9-10 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .Container-M1025-section-10-MQ {
+    padding-right: 250px;
+  }
+}
+
+/* Media Queries for All Section 9 End */

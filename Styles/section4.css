@@ -1,0 +1,44 @@
+.section4 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 11px;
+  margin-bottom: 22px;
+  margin-left: 5px;
+}
+
+.p-inOrdertoUnlock,
+.p-atBinanceWEtrulyBelieve,
+.p-WeAppreciateAllWallet,
+.p-NowTeamUp,
+.theCurrentlyOnline,
+.p-ToUsetheSmart {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+
+.Stepbelow-FellowBinancian {
+  margin-left: 30px;
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Span */
+.a-binanceCoin-BNB,
+.a-high-quality-waallets,
+.aa-trust-wallet,
+.aaa-atomic-wallet,
+.a-zengo-wallet,
+.a-plus12BnB {
+  text-decoration: none;
+  color: rgb(240, 185, 11);
+}
+
+/* Span End */

@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  position: sticky;
+  height: 130px;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer-line {
+  border-top: 1px solid rgb(189, 188, 188);
+  width: 90vw;
+  margin-bottom: 13px;
+}
+
+.footer-binanceCopy {
+  color: #474D57;
+}
+ 

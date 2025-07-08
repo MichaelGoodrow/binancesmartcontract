@@ -1,0 +1,27 @@
+.section8 {
+  height: 50px;
+  border-top: 1px solid rgb(231, 230, 230);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.havemorequestionsSection8 {
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+.havemorequestionsSection8 p {
+  color: gray;
+  margin-right: 2px;
+}
+
+.a-submitArequest {
+  text-decoration: none;
+  color: rgb(240, 185, 11);
+}
+
+.a-submitArequest:hover {
+  text-decoration: underline;
+  color: rgb(240, 185, 11);
+}

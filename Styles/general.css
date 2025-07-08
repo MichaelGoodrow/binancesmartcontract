@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bitstream Wedding band Serif Bold', sans-serif !important;
+  
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body.night {
+  background: black;
+}
+
+
+
+
+.flex-container {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: -20px;
+  /* padding: 10px; */
+  background-color: white;
+  z-index: 100;
+}
+
+.flex-item {
+  /* justify-content:space-around; */
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+  /* margin: 5px; */
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  padding-right: 5px;
+  /* margin-bottom: 5px; */
+}
+
+.iconusdcoin {
+  width: 28px;
+  height: 28px;
+  padding-right: 5px;
+  /* margin-bottom: 5px; */
+}
+
+.iconthemefooter {
+  width: 28px;
+  height: 28px;
+  padding-left: 5px;
+  /* margin-bottom: 5px; */
+}
+
+
+
+
+
+/* Default light mode styles are already defined in your CSS */
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #181E25;
+  color: #ffffff;
+}
+
+header.dark-mode,
+footer.dark-mode {
+  background-color: #181E25;
+}
+
+.flex-container.dark-mode {
+  background-color: #181E25;
+}
+
+.flex-container.dark-mode .flex-item p {
+  color: #ffffff;
+}
+
+
+
+body.dark-mode h1,
+body.dark-mode h2{
+  color: #ffffff; /* Make h1 and h2 text white */
+}
+
+
+
+
+
+/* Dark mode styles for specific links */
+body.dark-mode .AboutUsSection9 p,
+body.dark-mode .ServiceSection9 p,
+body.dark-mode .ProductsSection9 p,
+body.dark-mode .LearnSection9 p,
+body.dark-mode .SupportSection9 p{
+  color: #ffffff; /* Make the text white */
+}
+
+body.dark-mode .AboutUsSection9 ul li a:hover {
+  color: #cccccc; /* Optional: Add a hover effect */
+}
+
+
+
+body.dark-mode .Ul-li-traddde,
+body.dark-mode .Ul-li-BuyCrypto,
+body.dark-mode .Ul-li-Earnss,
+body.dark-mode .Ul-li-ExchangeCrypto,
+body.dark-mode .Ul-li-proodduct,
+body.dark-mode .Ul-li-Institutional,
+body.dark-mode .ul-li-Derivatives,
+body.dark-mode .Ul-li-finnance
+{
+  color: black !important; /* Make the links white */
+}
+
+body.dark-mode .containerforethwalletdropdown,
+body.dark-mode .containerforbtcwalletdropdown {
+  color: black;
+  padding-left: 6px;
+}
+
+.containerforethwalletdropdown,
+.containerforbtcwalletdropdown{
+  padding-left: 4px;
+}
+
+
+body.dark-mode .icon,
+body.dark-mode .iconusdcoin,
+body.dark-mode .fa-brands,
+body.dark-mode .discord-img-section10
+ {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+
+body.dark-mode .fa-brands,
+body.dark-mode .discord-img-section10 {
+  font-size: 20px;
+  display: flex;
+  flex-grow: 1;
+
+}
+
+
+ .fa-brands,
+ .discord-img-section10 {
+  font-size: 20px;
+  display: flex;
+  flex-grow: 1;
+
+}

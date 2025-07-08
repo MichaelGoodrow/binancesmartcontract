@@ -1,0 +1,195 @@
+.section5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p-profitCalculation {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+
+.ul-EthSmartCotract-ul,
+.ul-BTCSmartCotract-ul {
+  margin-left: 30px;
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ClicktoViewETHSmartContract,
+.ClicktoViewBTCSmartContract {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(240, 185, 11);
+  font-size: 17px;
+  margin-left: 3px;
+  font-weight: bold;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Click to View ETH Wallet */
+
+.ClickToviewETHwallet-Container {
+  border: 1px solid blue;
+  display: flex;
+}
+
+.Smart-Contract-Dropdown-ETH-wallet {
+  border: 0.5px solid gray;
+  box-shadow: -4px 5px 19px 1px rgba(0, 0, 0, 0.77);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  transform: scale(0.1);
+  width: 78vw;
+  left: 11%;
+  top: -100px;
+  z-index: 20;
+  transition: all 0.5s linear;
+  display: none;
+
+  /* display: block; */
+}
+
+.OPEN-ETH-WALLETS {
+  display: block;
+  transform: scale(1);
+}
+
+.smartContract-ETH-Header {
+  display: flex;
+  background-color: #181a20;
+  height: 4vh;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.click-ETH-logo-img-container {
+  height: 16px;
+  width: 19px;
+  box-sizing: border-box;
+  margin-top: -4px;
+  margin-left: 3px;
+}
+
+.click-ETH-img-container {
+  height: 19px;
+  width: 19px;
+  box-sizing: border-box;
+  margin-top: 3px;
+}
+
+.Click-ETH-button-X {
+  background: none;
+  border: none;
+  color: white;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.p-click-binanceBtc-SmartContract-ETH {
+  color: rgb(240, 185, 11);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6em;
+}
+
+.smartContract-footer-ETH {
+  display: flex;
+  background-color: #181a20;
+  height: 4vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-smartContract-footer-ETH {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(240, 185, 11);
+  font-size: 0.7em;
+}
+
+.Click-MainBody1-ETH {
+  display: flex;
+  flex-direction: column;
+}
+
+.pp-smartContract-address-ETH {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Click-CopyWallet-Addres-ETH {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+.Click-InputCopy-Address-ETH {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: 1px solid gray;
+  border-left: none;
+}
+
+.click-copy-BUTTON-ETH {
+  border: none;
+  background-color: rgb(240, 185, 11);
+  color: white;
+}
+
+.wallet-Bar-to-Change-walletaddress-ETH {
+  width: 40vw;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.pp-Waiting-to-be-Deposited-ETH {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.Click-Spin-Icon-ETH {
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(240, 185, 11);
+  margin-bottom: 7px;
+}
+
+.pp-Click-DepositImmediately-ETH {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pp-Click-StepsToFollow-ETH {
+  margin-bottom: 10px;
+}
+
+.ul-Click-Step-Below-ETH {
+  padding-left: 25px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+/* Click to View ETH Wallet */

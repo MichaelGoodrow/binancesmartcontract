@@ -1,0 +1,93 @@
+.Relative-hover-aboutUs,
+.Relativebox-hover-product,
+.Relative-hover-Learn,
+.Relative-hover-Support,
+.Relative-hover-Service {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.DropDown-AboutUsSection9,
+.DropDown-ProductsSection9,
+.DropDown-ServiceSection9,
+.DropDown-SuportSection9,
+.DropDown-LearnSection9 {
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  width: 318px;
+
+  height: 337px;
+  position: sticky;
+
+  margin-right: 50px;
+  display: none;
+  margin-top: -27px;
+  box-sizing: border-box;
+}
+
+.DropDown-ServiceSection9 {
+  height: 353px;
+}
+
+.DropDown-SuportSection9 {
+  height: 282px;
+}
+
+.DropDown-LearnSection9 {
+  height: 354px;
+}
+
+.DropDown-AboutUsSection9 p,
+.DropDown-ProductsSection9 p,
+.DropDown-ServiceSection9 p,
+.DropDown-SuportSection9 p,
+.DropDown-LearnSection9 p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+}
+
+.DropDown-ProductsSection9 ul,
+.DropDown-ServiceSection9 ul,
+.DropDown-SuportSection9 ul,
+.DropDown-LearnSection9 ul,
+.DropDown-AboutUsSection9 ul {
+  list-style-type: none;
+  color: #707a8a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 2px;
+  font-size: 13px;
+  line-height: 25px;
+  margin-left: 5px;
+}
+
+.hover-aboutus-ssection9,
+.hover-learn-ssection9,
+.hover-support-ssection9,
+.hover-service-ssection9,
+.hover-products-ssection9 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Relativebox-hover-product:hover .DropDown-ProductsSection9,
+.Relative-hover-Service:hover .DropDown-ServiceSection9,
+.Relative-hover-Support:hover .DropDown-SuportSection9,
+.Relative-hover-Learn:hover .DropDown-LearnSection9,
+.Relative-hover-aboutUs:hover .DropDown-AboutUsSection9 {
+  display: block;
+}
+
+.hover-plus-aboutus-section9,
+.hover-plus-learn-ssection9,
+.hover-plus-support-ssection9,
+.hover-plus-service-ssection9,
+.hover-plus-products-ssection9 {
+  margin-right: 9px;
+  margin-top: -4.5px;
+
+  font-size: 25px;
+  cursor: pointer;
+}

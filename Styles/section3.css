@@ -1,0 +1,13 @@
+.section3 {
+  display: flex;
+  flex-direction: column;
+
+  height: 540px;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtubebinancevideo {
+  width: 100%;
+  height: 500vh;
+}
